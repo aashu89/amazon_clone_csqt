@@ -2,12 +2,25 @@
 .text-rating{
     font-size: 13px;
 }
+#priceHeader{
+    display: inline-block;
+}
+
 #discount{
     color: rgb(160, 35, 35);
-    font-size: 17px;
+    /* display: inline-flex; */
+    font-size: 25px;
 }
 #price{
     display: inline-block;
+}
+#currency{
+    font-size: 18px;
+    vertical-align: top;
+    font-weight: 400;
+}
+#mrp{
+    font-size: 12px!important;
 }
 img{
     vertical-align: top;
@@ -29,5 +42,7 @@ img:hover{
 .img-center{
     width: 100%!important;
     height: auto!important;
+    margin-left: auto;
+    margin-right: auto;
 }
 
