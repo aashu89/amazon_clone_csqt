@@ -82,16 +82,17 @@ nav input {
 nav button {
     padding: 1px 10px;
     color: black;
-    font-size: 17px;
+    font-size: 12px;
     border: none;
-    border-radius: 5px 0px 0px 5px;
+    /* border-radius: 5px 0px 0px 5px; */
     cursor: pointer;
 }
 
 nav .all {
     background: #ddd;
-    padding: 10px 16px;
-    /* font-size: 19px; */
+    height: 49px;
+    width: 43px;
+    font-size: 12px;
     border-radius: 5px 0px 0px 5px;
 }
 
@@ -116,12 +117,8 @@ nav .all i {
 .subnavigation {
     background-color: #232f3e;
     display: flex;
-    justify-items: center;
-    justify-content: space-evenly
-
-    /* justify-items: ; */
-    /* padding: 6px 15px; */
-    /* max-height: 35px; */
+    font-size: 15px;
+   
 }
 
 .submenu {
