@@ -1,3 +1,12 @@
+
+// Aashutosh doing woek here for category json 
+const category_list = {
+
+  "Men" : {"Clothing" : ["T - Shirt and Polos" , "Shirts" , "Trouser" , "Jeans" , "Innerwear", "Sport wear", "Sleep and lounge wear" , "Jacket and coats", "Sweaters"], "Shoes" : ["Sport Shoes" , "Formal Shoes" , "Casual Shoes" , ""]}
+
+};
+
+
 const btnDepartments = document.getElementById('btn-departments'),
       btnCloseMenu = document.getElementById('btn-menu-close'),
       grid = document.getElementById('grid'),
