@@ -1,30 +1,7 @@
 
 // Aashutosh doing woek here for category json 
-const category_list = {
 
-  "Men":
-  {
-    "Clothing": ["T - Shirt & Polos", "Shirts", "Trouser", "Jeans", "Innerwear", "Sport wear", "Sleep & lounge wear", "Jacket & coats", "Sweaters"], "Shoes": ["Sport Shoes", "Formal Shoes", "Casual Shoes", "Sneakers", "Loafers & Mocassins", "Flip-Flops", "Boots", "Sandals & Floaters", "Thong Sandals", "Boat Shoes"], "Watches": ["Metallic", "Chronographs", "Leather"],
-    "Jewellery": ["Rings", "Bracelets"], "Eyewear": ["Sunglasses", "Spectacle Frames"]
-  },
 
-  "Women":
-  {
-    "Clothing": ["New Arrivals", "Top Brands", "All Western Wear", "Shirts, Tops & Tees", "Dresses", "Jeans & Jeggings", "All Ethnic Wear", "Kurtas", "Salwar Suits", "Sarees", "Lingerie, Sleep & Lounge", "Sportswear"],
-
-    "Shoes": ["Fashion Sandals", "Pumps & Peeptoes", "Casual Slippers", "Casual Shoes",
-      "Boots", "Sports Shoes", "Flip-Flops", "Ballet Flats", "Ethnic Footwear", "Formal Shoes"],
-
-    "Eyewear": ["Sunglasses", "Spectacle Frames"],
-
-    "Watches": ["Gold & rose-gold", "Stainless steel", "Leather"],
-
-    "Jewellery": ["Gold & Diamond Jewellery", "Traditional Imitation", "Fashion Jewellery", "Silver Jewellery"],
-
-    "Handbags & Clutches": ["Handbags", "Wallets"]
-  }
-
-};
 
 
 const btnDepartments = document.getElementById('btn-departments'),
