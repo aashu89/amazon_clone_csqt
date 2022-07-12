@@ -146,6 +146,40 @@ No, it’s nothing like slipping into your boyfriend’s jeans, but more about k
         recentrly_view:true,
         trending_product:true
     },
-
+{
+        cat_id: "2",
+        sub_cat_id: "108",
+        product_id: "1179",
+        product_name :Flared Jeans ", 
+        product_description:"Capris might not be flattering for all body types though, so be sure to try them out beforehand to see if they suit you, or if you should lean towards other types of jeans for girls instead.",
+        product_rating:"3.0",
+        product_rating_count:"234",
+        product_img: "https://images.bewakoof.com/web/Types-Of-Jeans-For-Girls-bewakoof-blog-13-1613652300.jpg",
+        product_price: "1299",
+        product_discount_price: "999",
+        product_discount_percenteage: "",
+        product_color:"blue",
+        product_size:"28",
+        recentrly_view:true,
+        trending_product:true
+    },
+    {
+        cat_id: "2",
+        sub_cat_id: "108",
+        product_id: "1180",
+        product_name :Ripped Jeans
+", 
+        product_description:"Capris might not be flattering for all body types though, so be sure to try them out beforehand to see if they suit you, or if you should lean towards other types of jeans for girls instead.",
+        product_rating:"3.0",
+        product_rating_count:"234",
+        product_img: "https://images.bewakoof.com/web/Types-Of-Jeans-For-Girls-bewakoof-blog-17-1613652302.jpg",
+        product_price: "1199",
+        product_discount_price: "999",
+        product_discount_percenteage: "",
+        product_color:"blue",
+        product_size:"28",
+        recentrly_view:true,
+        trending_product:true
+    },
     
 ]
