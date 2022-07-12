@@ -2,9 +2,12 @@
 .text-rating{
     font-size: 13px;
 }
-#price{
+#discount{
     color: rgb(160, 35, 35);
     font-size: 17px;
+}
+#price{
+    display: inline-block;
 }
 img{
     vertical-align: top;
