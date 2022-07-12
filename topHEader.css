@@ -90,7 +90,7 @@ nav button {
 
 nav .all {
     background: #ddd;
-    /* padding: 10px 16px; */
+    padding: 10px 16px;
     /* font-size: 19px; */
     border-radius: 5px 0px 0px 5px;
 }
@@ -108,32 +108,38 @@ nav .all i {
 }
 
 .box:hover {
-    border: 4px solid rgb(247, 155, 80);
+    border: 2px solid rgb(247, 155, 80);
     box-shadow: 0px 0px 3px 0px rgb(247, 155, 80);
     border-radius: 10px;
 }
 
 .subnavigation {
     background-color: #232f3e;
-    padding: 6px 15px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly
+
+    /* justify-items: ; */
+    /* padding: 6px 15px; */
+    /* max-height: 35px; */
 }
 
 .submenu {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: space-between;
+
 
 }
 
-li {
-    list-style: none;
-}
+
 
 ul li {
     list-style: none;
     font-weight: 500;
-    padding: 0px 5px;
+   
     font-size: 12px;
+    list-style: none;
 }
 
 nav submenu i {
@@ -141,8 +147,8 @@ nav submenu i {
 }
 
 .li {
-    margin: -5px;
-    font-size: 20px;
+    /* margin: -5px; */
+    font-size: 15px;
 }
 
 .bg {
@@ -151,4 +157,7 @@ nav submenu i {
     margin: -5px 0;
     margin-right: 10px;
     background-color: rgb(247, 155, 80);
+}
+.submenu a{
+    color: white;
 }
