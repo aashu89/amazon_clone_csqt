@@ -12,6 +12,7 @@ section .section-title {
 }
 #footer {
     background: #232F3E !important;
+    margin-top:-17px;
 }
 #footer h5{
 	padding-left: 10px;
@@ -74,7 +75,7 @@ section .section-title {
 }
 }
 #footer2{
-    background-color: #2f3f52;
+    background-color: #273545;
     border: 10px;
 }
 
