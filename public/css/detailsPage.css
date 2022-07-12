@@ -1,0 +1,31 @@
+#details{
+    /* background: #ddd; */
+}
+.text-rating{
+    font-size: 13px;
+}
+#price{
+    color: rgb(160, 35, 35);
+    font-size: 17px;
+}
+img{
+    vertical-align: top;
+}
+img:hover{
+    cursor: pointer;
+}
+.img-set{
+    width: 3vw;
+    height: 9vh;
+    border: 1px solid #00000047;
+    border-radius: 10%;
+    margin: 6%;
+}
+.img-set:hover{
+    box-shadow:0px 0px 4px 2px #ffb500b8;
+    cursor: pointer;
+}
+.img-center{
+    width: 100%!important;
+    height: auto!important;
+}
