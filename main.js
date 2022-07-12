@@ -2,16 +2,28 @@
 // Aashutosh doing woek here for category json 
 const category_list = {
 
-  "Men" : {"Clothing" : ["T - Shirt and Polos" , "Shirts" , "Trouser" , "Jeans" , "Innerwear", "Sport wear", "Sleep and lounge wear" , "Jacket and coats", "Sweaters"], "Shoes" : ["Sport Shoes" , "Formal Shoes" , "Casual Shoes" , ""]}
+  "Men":
+  {
+    "Clothing": ["T - Shirt & Polos", "Shirts", "Trouser", "Jeans", "Innerwear", "Sport wear", "Sleep & lounge wear", "Jacket & coats", "Sweaters"], "Shoes": ["Sport Shoes", "Formal Shoes", "Casual Shoes", "Sneakers", "Loafers & Mocassins", "Flip-Flops", "Boots", "Sandals & Floaters", "Thong Sandals", "Boat Shoes"], "Watches": ["Metallic", "Chronographs", "Leather"],
+    "Jewellery": ["Rings", "Bracelets"], "Eyewear": ["Sunglasses", "Spectacle Frames"]
+  } ,
+
+  "Women" :
+  {
+    "Clothing" : ["New Arrivals", "Top Brands", "All Western Wear" , "Shirts, Tops & Tees" , "Dresses" , "Jeans & Jeggings" , "All Ethnic Wear" , "Kurtas" , "Salwar Suits" , "Sarees" , "Lingerie, Sleep & Lounge" , "Sportswear" ] ,
+    
+    
+    
+  }
 
 };
 
 
 const btnDepartments = document.getElementById('btn-departments'),
-      btnCloseMenu = document.getElementById('btn-menu-close'),
-      grid = document.getElementById('grid'),
-      containerSubcategories = document.querySelector('#menu .container-subcategories'),
-      isMobile = () => window.innerWidth <= 800
+  btnCloseMenu = document.getElementById('btn-menu-close'),
+  grid = document.getElementById('grid'),
+  containerSubcategories = document.querySelector('#menu .container-subcategories'),
+  isMobile = () => window.innerWidth <= 800
 
 btnDepartments.addEventListener('mouseover', () => {
   if (!isMobile())
@@ -28,7 +40,7 @@ document.querySelectorAll('#menu .categories a').forEach(element => {
     if (!isMobile()) {
       document.querySelectorAll('#menu .subcategory').forEach(category => {
         category.classList.remove('active')
-  
+
         if (category.dataset.category === el.target.dataset.category)
           category.classList.add('active')
       })
@@ -43,8 +55,8 @@ document.querySelector('#btn-menu-bars').addEventListener('click', e => {
 
   if (document.querySelector('#menu .container-nav-links').classList.contains('active'))
     document.querySelector('body').style.overflow = 'hidden'
-  else 
-  document.querySelector('body').style.overflow = 'visible'
+  else
+    document.querySelector('body').style.overflow = 'visible'
 })
 
 // Click on 'All departments' for mobile
